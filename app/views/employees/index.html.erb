@@ -1,2 +1,19 @@
-<h1>Employees#index</h1>
-<p>Welcome!</p>
+<h1>Employees</h1>
+<p>Welcome &ndash; You have had a total of <%= pluralize @employees.count, 'employee' %></p>
+
+<table class="table">
+  <tr>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Position</th>
+    <th>Separation Date</th>
+  </tr>
+  <% @employees.each do |e| %>
+  <tr>
+    <td><%= e.first_name %></td>
+    <td><%= e.last_name %></td>
+    <td><%= e.position %></td>
+    <td><%= e.separation_date %></td>
+  </tr>
+  <% end %>
+</table
