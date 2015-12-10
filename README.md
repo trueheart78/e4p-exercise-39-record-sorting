@@ -5,4 +5,3 @@ Exercises for Programmers, 39 and 40: **sorting and filtering records**
 
 Goal is to learn more about pushing a Rails app out into the wild, without
 using Heroku. For this, [openshift](https://openshift.com) is the goal.
-
