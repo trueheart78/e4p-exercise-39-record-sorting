@@ -11,3 +11,7 @@ using Heroku. For this, [openshift](https://openshift.com) is the goal.
 Once a gear was setup, merging in the git directories from
 https://github.com/trueheart78/puma-openshift
 became mandatory, for Puma support (instead of Passenger).
+
+## My Openshift Details
+
+See my gist on [Openshift Rails Setup](https://gist.github.com/trueheart78/446fcb102a3d8bd5d45d)
