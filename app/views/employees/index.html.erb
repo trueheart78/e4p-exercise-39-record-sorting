@@ -3,10 +3,10 @@
 
 <table class="table">
   <tr>
-    <th>First Name</th>
-    <th>Last Name</th>
-    <th>Position</th>
-    <th>Separation Date</th>
+    <th><%= link_to 'First Name', controller: 'employees', sort_field: 'first_name' %></th>
+    <th><%= link_to 'Last Name', controller: 'employees', sort_field: 'last_name' %></th>
+    <th><%= link_to 'Position', controller: 'employees', sort_field: 'position' %></th>
+    <th><%= link_to 'Separation Date', controller: 'employees', sort_field: 'separation_date' %></th>
   </tr>
   <% @employees.each do |e| %>
   <tr>
@@ -16,4 +16,5 @@
     <td><%= e.separation_date %></td>
   </tr>
   <% end %>
-</table
+</table>
+
